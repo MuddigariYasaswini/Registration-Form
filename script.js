@@ -2,10 +2,7 @@ $(document).ready(function() {
     $("#registrationForm").submit(function(event) {
         event.preventDefault();
 
-        // Perform form validation here
-        // ...
-
-        // Send form data to server using AJAX
+        
         $.ajax({
             url: "process.php",
             type: "POST",
